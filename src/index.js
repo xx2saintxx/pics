@@ -1,9 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './components/App';
-import SearchBar from './components/SearchBar';
 
-
-
-ReactDOM.render(<SearchBar/>, document.querySelector('#root'));
-
+ReactDOM.render(<App />, document.querySelector('#root'));
